@@ -22,24 +22,11 @@ body {
     font-size: 18px;
   }
   
-  /* h1 {
-    display: inline-block;
-    font-size: 35px;
-  } */
-  /* div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-  } */
-  
   header div ul {
     list-style-type: none;
   }
   
-  /* ul li {
-    display: inline-block;
-    margin-left: 25px;
-  } */
+ 
   .Heading ml-3 {
     background-color: #db7093;;
     opacity: 70%;
@@ -52,7 +39,7 @@ body {
   
   .img {
     padding:0 auto;
-    margin-left:1%; 
+    margin-left:10%; 
     background: lightgray;
     border-radius: 10px/10px;
   }
@@ -102,7 +89,6 @@ body {
     cursor: pointer;
   }
 .el2 {width:40%;}
-
 footer {padding:2px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -125,12 +111,12 @@ h2{color:black;
   padding:20px;
 }
 
-justify-content-end {
+/* justify-content-end {
   -ms-flex-pack: end;
   justify-content: flex-end;
 }.navbar-brand {
   margin-right: 0em;
-}
+} */
 .navbar-light .navbar-brand {
   color:  white;
   font-family: "Kaushan Script", cursive;
