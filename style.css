@@ -1,16 +1,14 @@
 body {
-    background: #c7b39b url(images/background1.jpg);
-    
+    background: #c7b39b url(images/background1.jpg);  
   }
   .container {
     z-index: 1
-}
+  }
 .box-name {
     font-family: "Neucha", cursive;
     background-color: #db7093;
     margin-right: 0rem;
-  
-}
+  }
   * {
     box-sizing: border-box;
     padding: 0;
@@ -25,8 +23,6 @@ body {
   header div ul {
     list-style-type: none;
   }
-  
- 
   .Heading ml-3 {
     background-color: #db7093;;
     opacity: 70%;
@@ -36,14 +32,12 @@ body {
     padding: 10px;
     margin: 0 auto;
   }
-  
   .img {
     padding:0 auto;
     margin-left:10%; 
     background: lightgray;
     border-radius: 10px/10px;
   }
-  
   /* phone using  */
   @media screen and (min-width: 400px) {
     body {
@@ -110,13 +104,6 @@ h2{color:black;
 .col {
   padding:20px;
 }
-
-/* justify-content-end {
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-}.navbar-brand {
-  margin-right: 0em;
-} */
 .navbar-light .navbar-brand {
   color:  white;
   font-family: "Kaushan Script", cursive;
