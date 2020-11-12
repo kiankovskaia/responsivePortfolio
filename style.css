@@ -34,8 +34,7 @@ body {
   }
   .img {
     padding:0 auto;
-    margin-left:10%; 
-    background: lightgray;
+    margin:20px;
     border-radius: 10px/10px;
   }
   /* phone using  */
@@ -99,7 +98,7 @@ h1{color:black;
   font-size:14px;
 }
 h2{color:black;
-  font-size:18px;
+  font-size:24px;
 }
 .col {
   padding:20px;

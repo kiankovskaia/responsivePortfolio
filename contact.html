@@ -7,7 +7,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Neucha&display=swap" rel="stylesheet">
- 
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <title>My Website</title>
 </head>
 <body>
@@ -45,37 +45,44 @@
 </header>  
 
     <!-- Input form -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 p-3 my-3 border bg-light">
-                    <h2 class="Heading ml-3">Contact</h2>
-                    <div class="col-12 px-0">
-                        <form>
-                            <div class="form-row">
-                                <div class="col mb-3">
-                                <input type="text" class="form-control" placeholder="First name">
+        
+        <main class="container" class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 p-3 my-3 border bg-light">
+                    <table class="table">
+                        <h2 class="Heading ml-3">Contact</h2>
+                    <th>
+                        <div class="col-12 px-0">
+                            <form>
+                                <div class="form-row">
+                                    <div class="col mb-3">
+                                    <input type="text" class="form-control" placeholder="First name">
+                                    </div>
+                                    <div class="col">
+                                    <input type="text" class="form-control" placeholder="Last name">
+                                    </div>
                                 </div>
-                                <div class="col">
-                                <input type="text" class="form-control" placeholder="Last name">
-                                </div>
-                            </div>
-                            <div class="form-group">
+                            </form>
+                                <div class="form-group">
+                                <label for="exampleFormControlInput1">
+                                    <i class="material-icons">email</i>
+                                </label>
                                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleFormControlTextarea1">
-                                        <i>message</i>
+                                        <i class="material-icons">message</i>
                                     </label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                     <button type="button" class="btn btn-dark mt-2 float-right">
                                         <i>Submit ♡</i>
                                     </button>
                                 </div>
-                        </form>
-                    </div>
-            </div>
-        </div>
-    </div>
+                            </form>
+                        </div>
+                    </table>      
+                </div>
+        </main>
+
     <br><br><br>
     
 <!-- footer -->
